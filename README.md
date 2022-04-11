@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# The Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this challenge, we are asking you to build an application that allows to you search a cryptocurrency and show some detailed data relative to that coin. You can use any framework or tool you want in order to develop this.
+
+1. Have a web page that allows searching a coin in the [CoinGecko API](https://www.coingecko.com/en/api) list of coins
+2. Add the coin to a dashboard that shows at least the name, logo and current price of the coin
+3. Show a detailed view of the coin that includes more coin details, showing at least coin description, market cap and volume traded in Euro
+
+Requisites:
+
+- At least two pages, one for the dashboard and another for consulting the details of a certain coin
+- Given that this is a front-end challenge we are expecting some level of expertise to be demonstrated on the styling of the application. Great design skills are not expected, but using a framework like Bootstrap or Foundation is discouraged. If you want to use something to speed things up in other to focus elsewhere, we recommend Tailwind.
+- Host the code in a GitHub repository with some instructions on how to run the project locally
+- Although not needed, you can use some of the free hosting platforms to deploy your code, such as Vercel, Netlify and Heroku, should you want to.
 
 ## Available Scripts
 
