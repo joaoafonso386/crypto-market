@@ -1,0 +1,13 @@
+
+.dashboard-container {
+  margin: 0 auto; 
+  width: 350px;
+}
+
+.dashboard-container img {
+  margin: 0 auto;
+}
+
+.dashboard-container .card {
+  padding: 20px;
+}

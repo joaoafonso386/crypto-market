@@ -33,14 +33,12 @@ const SearchContainer = () => {
   }
 
   return (
-    <div>
+    <div className="search-container">
       <div className="input-search">
-        <label>
-          Search for a coin passing a coin name eg. bitcoin (3 chars minimum)
-          <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
-        </label>
-        <button type="text" onClick={searchCoin}>Search</button>
+        <label className="text-2xl font-bold leading-7 text-gray-900" for="search">Search for a coin passing a coin name - eg. bitcoin (3 chars minimum)</label>
+        <input className="py-3 px-4 rounded shadow font-thin focus:outline-none focus:shadow-lg focus:shadow-slate-200 duration-100 shadow-gray-100" type="text" id="search" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
       </div>
+        <button className="dark:bg-gray-800" type="text" onClick={searchCoin}>Search</button>
       <Switch>
         <Route exact path="/">
           <Dashboard coinData={coinData} isEmpty={isEmpty}/>
