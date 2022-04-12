@@ -2,7 +2,7 @@
   "name": "crypto-market",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joaoafonso386.github.io"
+  "homepage": "https://joaoafonso386.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
+    "eslint-config-react-app": "^7.0.0",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23"
   }

@@ -1,4 +1,4 @@
-import "./Dashboard.css"
+import "./Dashboard.css";
 
 
 const Dashboard = ({ coinData, isEmpty }) => {
